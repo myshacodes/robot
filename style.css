@@ -1,0 +1,100 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: lightskyblue;
+}
+p {
+  font-size: 4em;
+}
+.eye {
+  background-color: white;
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+}
+.pupil {
+  background-color: black;
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+}
+.arm {
+  background-color: #f9e4b2;
+  position: absolute;
+  top: 35%;
+  width: 5%;
+  height: 40%;
+}
+
+#head {
+  width: 30%;
+  height: 30%;
+  border-radius: 15%;
+  background-color: #f9e4b2;
+  position: absolute;
+  left: 32%;
+  top: 5%;
+}
+#righteye {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+}
+#rightpupil {
+  position: absolute;
+  left: 22%;
+  top: 22%;
+}
+#leftpupil {
+  position: absolute;
+  left: 62%;
+  top: 22%;
+}
+#lefteye {
+  position: absolute;
+  left: 60%;
+  top: 20%;
+}
+#mouth {
+  position: absolute;
+  width: 65%;
+  height: 15%;
+  left: 20%;
+  top: 70%;
+  background-color: red;
+}
+#body {
+  position: absolute;
+  left: 25%;
+  top: 35%;
+  width: 40%;
+  height: 55%;
+  background-color: #f9e;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#rightarm {
+  position: absolute;
+  left: 20%;
+}
+#leftarm {
+  position: absolute;
+  left: 65%;
+  width: 30%;
+  height: 7%;
+}
+#bangs {
+  position: absolute;
+  left: 32%;
+  top: 3%;
+  background-color: yellow;
+  width: 30%;
+  height: 45px;
+}
+.hair {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: yellow;
+  width: 50px;
+}
