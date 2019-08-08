@@ -1,9 +1,15 @@
 body {
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: Comic Sans MS;
   background-color: lightskyblue;
 }
 p {
   font-size: 4em;
+}
+.p2 {
+  position: absolute;
+  left: 40%;
+  top: 35%;
+  font-size: 50px;
 }
 .eye {
   background-color: white;
@@ -56,10 +62,9 @@ p {
 
 #mouth {
   position: absolute;
-  width: 65%;
-  height: 15%;
-  left: 20%;
-  top: 70%;
+  left: 40%;
+  top: 65%;
+  border-radius: 50%;
   background-color: red;
 }
 #body {
@@ -86,15 +91,25 @@ p {
 #bangs {
   position: absolute;
   left: 31%;
-  top: 3%;
+  top: 5%;
   background-color: yellow;
   width: 30%;
-  height: 45px;
+  height: 50px;
 }
-.hair {
+#haironright {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  left: 27%;
+  top: 8%;
+  width: 40px;
+  height: 300px;
   background-color: yellow;
-  width: 50px;
 }
+#haironleft {
+  position: absolute;
+  left: 60%;
+  top: 8%;
+  background-color: yellow;
+  width: 6%;
+  height: 47%;
+}
+/* Click the eyes, pupils, and left arm for animation! */

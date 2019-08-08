@@ -1,8 +1,7 @@
 var rightEye = document.getElementById("righteye");
 var leftEye = document.getElementById("lefteye");
 var leftArm = document.getElementById("leftarm");
-var leftPupil = document.getElementById("leftpupil");
-var rightPupil = document.getElementById("rightpupil");
+var leftArm = document.getElementById("leftarm");
 
 rightEye.addEventListener("click", moveUpDown);
 leftEye.addEventListener("click", moveUpDown);
@@ -35,4 +34,3 @@ function moveRightLeft(e) {
     }
   }
 }
-function otherAnimation(e) {}
