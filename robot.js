@@ -30,7 +30,7 @@ function moveRightLeft(e) {
   function frame() {
     robotPart.style.left = left + "%";
     left++;
-    if (left === 70) {
+    if (left === 66) {
       clearInterval(id);
     }
   }
